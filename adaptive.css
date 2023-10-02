@@ -1,0 +1,48 @@
+@media (max-width: 560px) {
+  body {
+    padding: 24px;
+  }
+
+  .logo {
+    font-size: 18px;
+  }
+
+  .button {
+    width: 110px;
+  }
+
+  .image {
+    margin: 90px auto 50px;
+  }
+
+  .advice {
+    font-size: 24px !important;
+  }
+
+  .cursor {
+    width: 8px;
+  }
+
+  .footer {
+    font-size: 12px;
+    bottom: 24px;
+  }
+}
+
+@media (min-height: 800px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .header {
+    width: calc(100% - 72px);
+    position: absolute;
+    top: 36px;
+  }
+
+  .image {
+    margin: 0 auto 50px;
+  }
+}
